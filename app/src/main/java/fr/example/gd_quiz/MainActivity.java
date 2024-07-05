@@ -31,11 +31,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 savePlayerName();
-                // Passer à l'écran de jeu
-                Intent intent = new Intent(MainActivity.this, GameActivity.class);
-                String playerName = playerNameEditText.getText().toString();
-                intent.putExtra(PLAYER_NAME_KEY, playerName);
-                startActivity(intent);
+
+                // Passer à l'écran de sélection de thème
+                Intent themeSelectionIntent = new Intent(MainActivity.this, ThemeSelectionActivity.class);
+                startActivity(themeSelectionIntent);
             }
         });
     }

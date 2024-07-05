@@ -5,5 +5,6 @@
     <string name="start_game">"Commencer le jeu"</string>
     <string name="question">"Votre question ici"</string>
     <string name="start">"Début du jeu"</string>
+    <string name="bjr">"Bonjour "</string>
 
 </resources>
