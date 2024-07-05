@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GD_QUIZ</string>
+    <string name="welcome">"Bienvenu dans mon Quiz!"</string>
+    <string name="enter_name">"Entrer votre nom"</string>
+    <string name="start_game">"Commencer le jeu"</string>
+    <string name="question">"Votre question ici"</string>
+    <string name="start">"Début du jeu"</string>
+
+</resources>
